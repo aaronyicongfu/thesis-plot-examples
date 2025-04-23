@@ -138,5 +138,6 @@ if __name__ == "__main__":
 
     fig.savefig("line_plot_example.pdf")
     fig.savefig("line_plot_example.svg")
+    fig.savefig("line_plot_example.jpg", dpi=1200)
 
     plt.show()

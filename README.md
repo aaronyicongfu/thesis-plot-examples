@@ -3,7 +3,7 @@
 ### Line Plot
 
 <p align="center">
-<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/line_plot_example.svg" width="500">
+<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/line_plot_example.jpg" width="500">
 </p>
 
 The style of this example is mostly from the SciencePlots package:
