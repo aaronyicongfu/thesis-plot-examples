@@ -38,3 +38,11 @@ code: [two_sided_mesh.py](two_sided_mesh.py)
 </p>
 
 code: [two_material_problem.py](two_material_problem.py)
+
+### Galerkin Difference Basis Functions
+
+<p align="center">
+<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/basis_functions.jpg" width="500">
+</p>
+
+code: [basis_functions.py](basis_functions.py)
