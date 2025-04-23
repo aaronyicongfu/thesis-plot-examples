@@ -18,7 +18,7 @@ More color platters that are shipped with matplotlib can be found here:
 ### Cut Mesh
 
 <p align="center">
-<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/cut_mesh_example.jpg" width="500">
+<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/cut_mesh_example.jpg" width="350">
 </p>
 
 code: [cut_mesh_example.py](cut_mesh_example.py)
@@ -34,7 +34,7 @@ code: [two_sided_mesh.py](two_sided_mesh.py)
 ### Two-material problem
 
 <p align="center">
-<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/two_material_problem.jpg" width="500">
+<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/two_material_problem.jpg" width="350">
 </p>
 
 code: [two_material_problem.py](two_material_problem.py)
@@ -42,7 +42,7 @@ code: [two_material_problem.py](two_material_problem.py)
 ### Galerkin Difference Basis Functions
 
 <p align="center">
-<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/basis_functions.jpg" width="500">
+<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/basis_functions.jpg" width="750">
 </p>
 
 code: [basis_functions.py](basis_functions.py)
