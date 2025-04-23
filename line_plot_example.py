@@ -136,8 +136,6 @@ if __name__ == "__main__":
     df = pd.read_csv("line_plot_example.csv")
     fig, ax = plot_precision(df)
 
-    fig.savefig("line_plot_example.pdf")
-    fig.savefig("line_plot_example.svg")
     fig.savefig("line_plot_example.jpg", dpi=1200)
 
     plt.show()
