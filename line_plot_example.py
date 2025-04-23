@@ -1,3 +1,12 @@
+"""
+The style of this example is mostly from the SciencePlots package:
+    https://github.com/garrettj403/SciencePlots
+
+except for the colors, for which the ggplot color palette is used. More color
+platters that are shipped with matplotlib can be found here:
+    https://matplotlib.org/stable/gallery/style_sheets/style_sheets_reference.html
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
