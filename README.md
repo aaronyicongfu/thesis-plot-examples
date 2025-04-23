@@ -6,6 +6,8 @@
 <img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/line_plot_example.jpg" width="500">
 </p>
 
+code: [line_plot_example.py](line_plot_example.py)
+
 The style of this example is mostly from the SciencePlots package:
     https://github.com/garrettj403/SciencePlots
 except for the colors, for which the ggplot color palette is used.
