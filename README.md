@@ -26,10 +26,10 @@ code: [cut_mesh_example.py](cut_mesh_example.py)
 ### Two-sided Mesh
 
 <p align="center">
-<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/two_sided_example.jpg" width="500">
+<img src="https://github.com/aaronyicongfu/thesis-plot-examples/raw/main/two_sided_mesh.jpg" width="500">
 </p>
 
-code: [two_sided_example.py](two_sided_example.py)
+code: [two_sided_mesh.py](two_sided_mesh.py)
 
 ### Two-material problem
 
