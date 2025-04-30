@@ -122,12 +122,26 @@ def plot_precision(df):
             voffset_text=v_off_txt,
         )
 
-        ylabel = r"$\left[\int_h  \text{tr}((\mathbf{S} - \mathbf{S}_h)^T(\mathbf{S} - \mathbf{S}_h)) d\Omega\right]^{1/2}$"
+    # Remove all existing ticks
+    ax.tick_params(axis="x", which="both", length=0, labelbottom=False)
 
-        ax.set_ylim(bottom=ymin * 10.0 ** (v_off_txt * 1.05))
-        ax.legend()
-        ax.set_xlabel(r"$h$")
-        ax.set_ylabel(ylabel)
+    # Set new ticks with explicit positions and labels
+    ax.set_xticks(df["h"].drop_duplicates())
+    ax.set_xticklabels(
+        df["h"].drop_duplicates().apply(lambda x: f"{x:.1e}"),
+        rotation=45,
+        ha="right",
+    )
+
+    # Add ticks
+    ax.tick_params(axis="x", which="major", direction="in", length=3, labelbottom=True)
+
+    ylabel = r"$\left[\int_h  \text{tr}((\mathbf{S} - \mathbf{S}_h)^T(\mathbf{S} - \mathbf{S}_h)) d\Omega\right]^{1/2}$"
+
+    ax.set_ylim(bottom=ymin * 10.0 ** (v_off_txt * 1.05))
+    ax.legend()
+    ax.set_xlabel(r"$h$")
+    ax.set_ylabel(ylabel)
 
     return fig, ax
 
