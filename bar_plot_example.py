@@ -1,13 +1,6 @@
 import numpy as np
 import pandas as pd
-import argparse
-from time import time
-import subprocess
-from os.path import join
-import json
 import matplotlib.pyplot as plt
-import matplotlib.patches as patches
-import os
 
 import scienceplots
 
@@ -15,8 +8,6 @@ import scienceplots
 colors = plt.style.library["ggplot"]["axes.prop_cycle"].by_key()["color"]
 
 plt.style.use(["science"])
-
-from typing import List
 
 
 def plot_cpu_time_breakdown(df):
@@ -106,5 +97,3 @@ if __name__ == "__main__":
     fig, ax = plot_cpu_time_breakdown(df)
 
     fig.savefig("bar_plot_example.jpg", dpi=1200)
-
-    plt.show()
